@@ -4,17 +4,17 @@ function generateMarkdown(data) {
   # ${data.title}
    ## Table of Contents
   * [Description](#description)
-  * [Installing Dependencies](#dependencies-how-to)
-  * [Usage](#usage-how-to)
-  * [License](#license-select)
-  * [Contributing](#contributing-how-to)
+  * [Installing Dependencies](#dependencies)
+  * [Usage](#usage)
+  * [License](#license)
+  * [Contributing](#contributing)
   * [Tests](#tests)
 
   ## Description
   ${data.description}
 
   ## Installing Dependencies
-  Please enter the following: ${data.install}
+  ${data.install}
 
   ## Usage
   ${data.usage}

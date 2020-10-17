@@ -13,23 +13,23 @@ const questions = [
     {
         type: "input",
         name: "username",
-        message: "Please enter your github username"
+        message: "Please enter your github username: "
     },
     {
         type: "input",
         name: "email",
-        message: "Please enter your email address"
+        message: "Please enter your email address: "
     },
     {
         type: "input",
         name: "title",
-        message:  "Please enter the project's title"
+        message:  "Please enter the project's title: "
         
     },
     {
         type: "input",
         name: "description",
-        message: "Please enter a project description"
+        message: "Please enter a project description:"
     },
     {
         type: "input",
@@ -59,24 +59,28 @@ const questions = [
     { 
         type: "input",
         name: "contributing",
-        message: "Please advise of any guidelines in contributing to this project"
+        message: "Please advise of any guidelines in contributing to this project: "
     },
     {
         type: "input",
         name: "tests",
-        message: "Please provide any  testing instructions for this project"
+        message: "Please provide any  testing instructions for this project: "
     }]
     return prompt(questions);
 }
     
 
 // function to write README file
-async function writeToFile(fileName, data) {
+ function writeToFile(fileName, data) {
     console.log("writeToFile: Filename is " + fileName);
      console.log("writeToFile: data is " + data);
-    fs.writeFile(filename, data);
+    fs.writeFile(fileName, data, function(err){
+        if (err) {
+             throw err;
+        };
     console.log("The README was created successfully");
-}
+})
+ }
 
 // function to initialize program
 async function init() {
