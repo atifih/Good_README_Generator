@@ -30,8 +30,7 @@ function generateMarkdown(data) {
   ${data.tests}
 
   ## Questions
-[GitHub profile link:](https://github.com/${data.username})  
-
+[GitHub profile link](https://github.com/${data.username})  
 [Email link](mailto:${data.email})
 `;
 
