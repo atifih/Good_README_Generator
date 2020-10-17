@@ -1,10 +1,11 @@
 // function to generate markdown for README
 function generateMarkdown(data) {
   const readMeFile = `
-  # ${data.title}
+  # ${data.title}  
+
    ## Table of Contents
   * [Description](#description)
-  * [Installing Dependencies](#dependencies)
+  * [Installing Dependencies](#installing-dependencies)
   * [Usage](#usage)
   * [License](#license)
   * [Contributing](#contributing)
@@ -22,15 +23,16 @@ function generateMarkdown(data) {
   ## License
   ${data.license}  
 
-  ## Contributng
+  ## Contributing
   ${data.contributing}
 
   ## Tests
   ${data.tests}
 
   ## Questions
-[GitHub profile link:](https://github.com/${data.username})
-[Email link:](mailto: ${data.email})
+[GitHub profile link:](https://github.com/${data.username})  
+
+[Email link](mailto:${data.email})
 `;
 
 
