@@ -50,9 +50,9 @@ const questions = [
             "GNU Library or 'Lesser' General Public License (LGPL)",
             "MIT License",
             "Mozilla Public License2.0",
-            "Common Development and Distribution License",
-            "Eclipse Public License version 2.0",
-            "Other"
+            "Creative Commons",
+            "Eclipse Public License version 1.0",
+           // "Other"
 
         ]
     },
@@ -88,8 +88,8 @@ async function init() {
         const answers = await promptUser();
         const readmeFile = await generateMarkdown(answers);
    
-        console.log(answers);
-        console.log(readmeFile);
+        console.log("init: Answers are: " + answers);
+        console.log("init: readmeFile is: " + readmeFile);
         
         writeToFile( "goodReadme.md", readmeFile);
           
