@@ -20,7 +20,7 @@ function generateMarkdown(data) {
   ${data.usage}
 
   ## License
-  ${data.license}
+  ${data.license}  
 
   ## Contributng
   ${data.contributing}
@@ -31,7 +31,7 @@ function generateMarkdown(data) {
   ## Questions
 [GitHub profile link:](https://github.com/${data.username})
 [Email link:](mailto: ${data.email})
-`
+`;
 
 
 

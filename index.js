@@ -1,7 +1,7 @@
 const { prompt } = require("inquirer");
-const goodreadme = require ("./generateMarkdown");
 const fs = require("fs");
 const generateMarkdown = require("./generateMarkdown");
+
 
 
 
@@ -71,25 +71,29 @@ const questions = [
     
 
 // function to write README file
-function writeToFile(fileName, data) {
+async function writeToFile(fileName, data) {
+    console.log("writeToFile: Filename is " + fileName);
+     console.log("writeToFile: data is " + data);
     fs.writeFile(filename, data);
+    console.log("The README was created successfully");
 }
 
 // function to initialize program
 async function init() {
     try{
         const answers = await promptUser();
-        const readmeFile = generateMarkdown(answers);
+        const readmeFile = await generateMarkdown(answers);
    
         console.log(answers);
+        console.log(readmeFile);
         
-        writeToFile( readmeFile, answers);
-        
+        writeToFile( "goodReadme.md", readmeFile);
+          
     }
     catch (err){
         console.log(err);
     }
-    console.log("The README was created successfully"); 
+   
 }
 
 // function call to initialize program
