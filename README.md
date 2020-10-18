@@ -25,7 +25,7 @@ The application will be invoked from the command line like so:
 
   ## Usage
   
-  After retrieving all information relevant to generating a professional Readme file, the application will generate a professional readme file organzing/structurin the information under suitable headings/headers.
+  After retrieving all information relevant to generating a professional Readme file, the application will begin organzing/structuring the information under suitable headings/headers.
   
   ![](images/image1.png)
   
@@ -33,7 +33,7 @@ The application will be invoked from the command line like so:
   
   ![](images/image2.png)
   
-  The application prompts installation instructions as well as sensible default options as shown in this pic with the option shown within parenthesis.
+  The application prompts installation instructions as well as sensible default options as shown in this picture with the option shown within parenthesis.
   
   ![](images/image3.png)
   
@@ -45,7 +45,7 @@ The application will be invoked from the command line like so:
  
  ![](images/image5.png)
  
- Finally, a link to the developer's github profile coupled with links to their email address are provided, coupled with a status message from the application on whether the readme file was generated successfully.
+ Finally, a link to the developer's github profile coupled with links to their email address are provided, along with a status message from the application on whether the readme file was generated successfully.
   
 
   ## License
