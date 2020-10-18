@@ -55,7 +55,7 @@ MIT.
 All pull requests are allowed/encouraged. For developers looking to make profound changes to this project, kindly open an issue detailing proposed changes to be made so that a discussion may ensue.
  
 ## Tests
-None are provided at this point in time.
+None are provided at this point in time. However, a sample Readme file called: goodRReadme.md is provided to illustrate the capabilities of this application.
 
 ## Questions
 [Developer GitHub profile link](https://github.com/atifih)  
