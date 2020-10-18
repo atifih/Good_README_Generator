@@ -21,7 +21,7 @@ function generateMarkdown(data) {
       badge = `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`
       break;
 
-ge
+
       case "Mozilla Public License2.0": 
       badge = `[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)`
       break;
@@ -51,6 +51,7 @@ ge
   * [License](#license)
   * [Contributing](#contributing)
   * [Tests](#tests)
+  * [Questions](#questions)
 
   ## Description
   ${data.description}
@@ -61,13 +62,9 @@ ge
   ## Usage
   ${data.usage}
   
-  
-
   ## License
+  ${data.license}
  
-${data.license}
- 
-
   ## Contributing
   ${data.contributing}
 

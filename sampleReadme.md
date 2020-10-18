@@ -1,5 +1,5 @@
 [![License: CC0-1.0](https://img.shields.io/badge/License-CC0%201.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
-  # Good Readme Generator.
+  # Good Readme Generator
 
    ## Table of Contents
   * [Description](#description)
@@ -11,13 +11,13 @@
   * [Questions](#questions)
 
   ## Description
-  Generates a readme file.
+  Generates a readme file for a project.
 
   ## Installing Dependencies
   npm i
 
   ## Usage
-  Please see readme screenshots and descriptions for further details.
+  Please see screenshots in the associated README.md file.
   
   
 
@@ -27,10 +27,10 @@ Creative Commons
  
 
   ## Contributing
-  Please raise a issue when proposing profound changes to the app so that a discussion may ensue.
+  Please raise an issue when proposing profound changes to the application so that a discussion may ensue.
 
   ## Tests
-  As there are not tests currently, and so there are no testing instructions.
+  There are no tests provided at this point in time and thus there are no testing instructions.
 
   ## Questions
 [GitHub profile link](https://github.com/atifih)  
