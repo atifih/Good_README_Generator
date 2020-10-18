@@ -10,7 +10,7 @@
   * [Tests](#tests)
 
 ## Description
-It is important when creating open source projects on GitHub that  they posess quality README files  composed with information such as: What the app is for.   how to use the app, how to install it, how to report issues, and how other developers can lessmake  contributions  to the success of the project
+It is important when creating open source projects on GitHub that  they posess quality README files  composed with information such as: What the app is for.   how to use the app, how to install it, how to report issues, and how other developers can lmake  contributions  to the success of the project
 
 A command-line application was chosen as it will enable a quick and easy generation of a project README to get started promptly. This facilitates a project creator to spend more time on working on finishing the project and less time creating a good README.
 
@@ -23,41 +23,41 @@ The application will be invoked from the command line like so:
  Dependencies maybe installed as follows:
  **npm i**
 
-  ## Usage
+## Usage
   
-  After retrieving all information relevant to generating a professional Readme file, the application will begin organzing/structuring the information under suitable headings/headers.
+After retrieving all information relevant to generating a professional Readme file, the application will begin organzing/structuring the information under suitable headings/headers.
   
-  ![](images/image1.png)
+![](images/image1.png)
   
-  The application begins by prompting the user for their github username, email address followed by the title of the project.
+The application begins by prompting the user for their github username, email address followed by the title of the project.
   
-  ![](images/image2.png)
+![](images/image2.png)
   
-  The application prompts installation instructions as well as sensible default options as shown in this picture with the option shown within parenthesis.
+The application prompts installation instructions as well as sensible default options as shown in this picture with the option displayed within parenthesis.
   
-  ![](images/image3.png)
+![](images/image3.png)
   
-  The user then proceeds in the application at which point they are prompted to select the license for the application from a list of common application licenses.
+The user then proceeds in the application at which point they are prompted to select the license for the application from a list of common application licenses.
   
-  ![](images/image4.png)
+![](images/image4.png)
   
-  The user then proceeds to enter application usage information as well as guidelines on how one may contribute to towards the success of this project.
+The user is then prompted to enter the  application usage information as well as guidelines on how one may contribute towards the success of this project.
  
- ![](images/image5.png)
+![](images/image5.png)
  
- Finally, a link to the developer's github profile coupled with links to their email address are provided, along with a status message from the application on whether the readme file was generated successfully.
+Finally, a link to the developer's github profile coupled with links to their email address are provided, along with a status message from the application on whether the readme file was generated successfully.
   
 
-  ## License
- MIT.
+## License
+MIT.
  
- ## Contributing
- All pull requests are allowed/encouraged. For developers looking to make drastic changes to this project, kindly open an issue detailing proposed changes to be made so that they maybe discussed.
+## Contributing
+All pull requests are allowed/encouraged. For developers looking to make profound changes to this project, kindly open an issue detailing proposed changes to be made so that a discussion may ensue.
  
-  ## Tests
- None are provided at this point in time.
+## Tests
+None are provided at this point in time.
 
-  ## Questions
+## Questions
 [Developer GitHub profile link](https://github.com/atifih)  
 [Developer Email link](mailto:atif.haque@gmail.com)
 
