@@ -14,7 +14,7 @@ It is important when creating open source projects on GitHub that  they posess q
 
 A command-line application was chosen as it will enable a quick and easy generation of a project README to get started promptly. This facilitates a project creator to spend more time on working on finishing the project and less time creating a good README.
 
-My goal here is to create a command-line application  that dynamically generates a professional README.md from user input via the Inquirer package.
+My goal here is to create a command-line application  that dynamically generates a professional README.md from user input via the Inquirer package (installable as a module to the node.js application).
 
 The application will be invoked from the command line like so:
 **node index.js**
@@ -24,16 +24,28 @@ The application will be invoked from the command line like so:
  **npm i**
 
   ## Usage
+  
+  After retrieving all information relevant to generating a professional Readme file, the application will generate a professional readme file organzing/structurin the information under suitable headings/headers.
+  
   ![](images/image1.png)
-  The application begins by prompting the user for github username, emaress il address folled by the title of the project.
+  
+  The application begins by prompting the user for their github username, email address followed by the title of the project.
+  
   ![](images/image2.png)
-  The application prompts installation instructions as well as sensible default options as shown in this pic ieratenside parenthesis.
+  
+  The application prompts installation instructions as well as sensible default options as shown in this pic with the option shown within parenthesis.
+  
   ![](images/image3.png)
+  
   The user then proceeds in the application at which point they are prompted to select the license for the application from a list of common application licenses.
+  
   ![](images/image4.png)
-  The user then proceeds to enter application usage information as well as guidelines on how one may contribute to the project.
-  ![](imagub es/image5.png)
-  Finally, a link to the developer's github profile coupled with links to their email address are provided coupled with a message from the application whether the readme file was generated successfully.
+  
+  The user then proceeds to enter application usage information as well as guidelines on how one may contribute to towards the success of this project.
+ 
+ ![](images/image5.png)
+ 
+ Finally, a link to the developer's github profile coupled with links to their email address are provided, coupled with a status message from the application on whether the readme file was generated successfully.
   
 
   ## License
