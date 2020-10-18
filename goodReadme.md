@@ -1,5 +1,5 @@
 [![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
-  # Good Readme generator.
+  # Good Readme Generator.
 
    ## Table of Contents
   * [Description](#description)
@@ -10,13 +10,13 @@
   * [Tests](#tests)
 
   ## Description
-  Readme file generator.
+  Auto-generate a project README file.
 
   ## Installing Dependencies
   npm i
 
   ## Usage
-  no usage information.
+  Kindly peruse the screenshots and short descriptions in the README.
   
   
 
@@ -26,10 +26,10 @@ Mozilla Public License2.0
  
 
   ## Contributing
-  no contributing guidelines.
+  Anyone can contribute but please raise issues for any proposed changes that are profound so we may discuss suitable avenues for any potential implentation(s).
 
   ## Tests
-  no testing instructions.
+  none available at the time of writing.
 
   ## Questions
 [GitHub profile link](https://github.com/atifih)  

@@ -2,10 +2,6 @@ const { prompt } = require("inquirer");
 const fs = require("fs");
 const generateMarkdown = require("./generateMarkdown");
 
-
-
-
-
 function promptUser(){
     // prompt the user for github data.
 // array of questions for user
