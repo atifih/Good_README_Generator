@@ -25,11 +25,11 @@ The application will be invoked from the command line like so:
  **npm i**
 
   ## Usage
-  ![](images/image1)
-  ![](images/image2)
-  ![](images/image3)
-  ![](images/image4)
-  ![](images/image5)
+  ![](images/image1.png)
+  ![](images/image2.png)
+  ![](images/image3.png)
+  ![](images/image4.png)
+  ![](images/image5.png)
   
   
 
