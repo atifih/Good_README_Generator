@@ -60,8 +60,8 @@ None are provided at this point in time. However, a sample Readme file called: g
 
 ## Questions
 [Developer GitHub profile link](https://github.com/atifih)  
-[Developer Email link](mailto:atif.haque@gmail.com). 
-[Video demonstration of the application](https://drive.google.com/file/d/1Ebs_cqdhx2Y1BZ86jdnBwH6snvOJ7whg/view).  
-[Sample Readme file generated](sampleReadme.md). 
+[Developer Email link](mailto:atif.haque@gmail.com)  
+[Video demonstration of the application](https://drive.google.com/file/d/1Ebs_cqdhx2Y1BZ86jdnBwH6snvOJ7whg/view)  
+[Sample Readme file generated](sampleReadme.md)
 
 
