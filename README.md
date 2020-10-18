@@ -8,6 +8,7 @@
   * [License](#license)
   * [Contributing](#contributing)
   * [Tests](#tests)
+  * [Questions](#questions)
 
 ## Description
 It is important when creating open source projects on GitHub that  they posess quality README files  composed with information such as: What the app is for.   how to use the app, how to install it, how to report issues, and how other developers can lmake  contributions  to the success of the project
@@ -59,6 +60,8 @@ None are provided at this point in time. However, a sample Readme file called: g
 
 ## Questions
 [Developer GitHub profile link](https://github.com/atifih)  
-[Developer Email link](mailto:atif.haque@gmail.com)
+[Developer Email link](mailto:atif.haque@gmail.com). 
+[Video demonstration of the application](https://drive.google.com/file/d/1Ebs_cqdhx2Y1BZ86jdnBwH6snvOJ7whg/view).  
+[Sample Readme file generated](sampleReadme.md). 
 
 
